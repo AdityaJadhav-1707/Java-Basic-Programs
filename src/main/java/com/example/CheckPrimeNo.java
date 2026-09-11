@@ -4,13 +4,15 @@ public class CheckPrimeNo
 {
 	public static void main(String[] args)
 	{
-		int no = 69;
+		int no = 1;
 		 if (no <= 1)
 		 {
-			 System.out.println("Not Prime No");
+			 System.out.println(no+" is Not Prime No");
 			 return;
 		 }
 		 boolean isPrime = true;
+
+//		 for (int i = 2; i <= Math.sqrt(no); i++)
 		 for (int i = 2; i < no; i++)
 		 {
 			 if (no % i == 0)
